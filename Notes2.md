@@ -33,5 +33,9 @@ Sample variation is always denoted by English notaton - \s^2 `s square`
 
 Formula for Population variable: 
 
+2. Standard Deviation
+  a. Popular Standard deviation (alpha) -> square root  of  variance
+  b. Sample standard deviation (s) -> square root of sample variance
+
 
 
