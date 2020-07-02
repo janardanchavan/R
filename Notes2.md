@@ -20,6 +20,12 @@ We consider 3 measures of dispersion:
 
 Variance - The measure of variation among the datapoints is called as variance.
 
-Population variation is always denoted by Greek notation - \sigma^2
-Sample variation is always denoted by English notaton - \s^2
+| <img src="https://latex.codecogs.com/svg.latex?\mu=\frac{\displaystyle\sum_{i=1}^{N}x_i}{N}"/> <br/> N = number of items in the population | <img src="https://latex.codecogs.com/svg.latex?\mu=\frac{\displaystyle\sum_{i=1}^{n}x_i}{n}"/>  <br/> n = number of items in the population |
+
+Population variation is always denoted by Greek notation - \sigma^2  `sigma square` <br/>
+Sample variation is always denoted by English notaton - \s^2 `s square`
+
+Formula for Population variable: 
+
+
 
