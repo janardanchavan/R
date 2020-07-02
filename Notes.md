@@ -163,7 +163,7 @@ Installing packages from editor window, eg.:<br/>
 if we de-select the check-box, we'll not be able to use it in our program called detaching package.
 
 detaching package from editor window:<br/>
-   detach("packagae:moments", unload = True)
+   ```detach("packagae:moments", unload = True)```
 
 help on packages/function name etc.:
    On the Help tab: enter the package  or function name eg. mean in the search box.
@@ -174,38 +174,40 @@ from editor window:<br/>
    ```x <- read.csv("cars.csv'")```
 
 Show the dataset details -> Import Text (base)...<br/>
-   View(x)
+   ```View(x)```
 
 to check rows and columns in the dataset:<br/>
-   dim(x)
+   ```dim(x)```
 
 to display initial records in the dataset (by default 6 records):<br/>
-   head(x)
+   ```head(x)```
 
 to display first 3 records:<br/>
-   head(x, 3)
+  ```head(x, 3)```
 
 to display last records (default 6 records):<br/>
-  tail(x)
+  ```tail(x)```
 
 to display last 3 records:<br/>
-  tail(x, 6)
+  ```tail(x, 6)```
 
 to display all the column names in the dataset<br/>
-  colnames(x)
+  ```colnames(x)```
 
 to print average/mean of HP column (column names are case-sensitive):<br/>
-  mean(x$HP)
+  ```mean(x$HP)```
 
 to print median:<br/>
-  median(x$HP)
+  ``` median(x$HP)```
 
 to avoid using dataset name each time:<br/>
-```attach(x)```
-```mean(HP)```
+```
+attach(x)
+mean(HP)
+```
 to display most occuring value:<br/>
   we need additional library 'LaplacesDemon' to display mode values:<br/>
-  install.packages('LaplacesDemon')
+  ```install.packages('LaplacesDemon')```
   then select the package on the Packages tab.
   ```Mode(HP)```
 
