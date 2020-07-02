@@ -2,9 +2,9 @@
 
 $$e^x = \sum_{k=0}^{\infty} \frac{x^k}{k!}$$
 
-{begin}
+{\begin}
 \frac{\sigma}{\sqrt{n}}
-{end}
+{\end}
 
 \sum(X)
 
