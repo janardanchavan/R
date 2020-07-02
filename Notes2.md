@@ -44,6 +44,24 @@ b. Sample standard deviation (s) -> square root of sample variance
 #### 3. Range
 Difference between maximum number - minimum number <br/>
 
+### Graphical techniques
+#### Bar Chart
+#### Histogram
+A Histogram represents the frequency distribution, i.e. how many observatons take the value within a certain nterval.
+Eg. Heights of Black Cherry Trees
+#### Pie Chart
+2-5 data points
+#### Line Chart
+50 data points
+
+# Day7 - Mar 28, 2020
+
+### Skewness
+#### 3rd moment of Business decisions
+Skewness is asymmetry in a statistical distribution, in which the curve appears distrted or skewed eitehr to the left or to the right.
+Formula to calculate Manually : <img src="https://latex.codecogs.com/svg.latex?\sum{[(x-\mu/\sigma)]}^3"/>
+ 
+
 
 
 
