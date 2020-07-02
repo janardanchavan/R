@@ -19,8 +19,14 @@ We consider 3 measures of dispersion:
 3. Standard Deviation
 
 Variance - The measure of variation among the datapoints is called as variance.
-
+Example: X1=1, X2=2, X3=3,     Mean=3
+| Population Value formula | Sample Value formula |
+| --- | --- |
 | <img src="https://latex.codecogs.com/svg.latex?\mu=\frac{\displaystyle\sum_{i=1}^{N}x_i}{N}"/> <br/> N = number of items in the population | <img src="https://latex.codecogs.com/svg.latex?\mu=\frac{\displaystyle\sum_{i=1}^{n}x_i}{n}"/>  <br/> n = number of items in the population |
+|=((x-2)^2+(2-2)^+(3-2)^2) / 3| --- |
+|=((-1)^2+(0)^2+(1)^2) / 3| --- |
+|=(1+0+1) / 3| --- |
+|=2/3| --- |
 
 Population variation is always denoted by Greek notation - \sigma^2  `sigma square` <br/>
 Sample variation is always denoted by English notaton - \s^2 `s square`
