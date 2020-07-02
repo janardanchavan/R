@@ -18,7 +18,7 @@ We consider 3 measures of dispersion:
 2. Variance
 3. Standard Deviation
 
-Variance - The measure of variation among the datapoints is called as variance.
+#### 1. Variance - The measure of variation among the datapoints is called as variance.
 Example: X1=1, X2=2, X3=3,     Mean=3
 | Population Variance formula | Sample Variance formula |
 | --- | --- |
@@ -36,9 +36,14 @@ Sample variation is always denoted by English notaton - \s^2 `s square`
 
 Formula for Population variable: 
 
-2. Standard Deviation
-  a. Popular Standard deviation (alpha) -> square root  of  variance
-  b. Sample standard deviation (s) -> square root of sample variance
+#### 2. Standard Deviation <br/>
+
+a. Popular Standard deviation (alpha) -> square root  of  variance <br/>
+b. Sample standard deviation (s) -> square root of sample variance
+
+#### 3. Range
+Difference between maximum number - minimum number <br/>
+
 
 
 
