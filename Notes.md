@@ -1,12 +1,10 @@
-R Learning notes:
+# R Learning notes:
 
 ## Day1 - Mar 19, 2020
    Data Science (Business Analytics)
-       Business + Statistics (Basic + Advanced) + Technical (last preference i.e. R/Python)
-
-       Statistics (Basic + Advanced)  + ML (Prediction Algorithms) + R & Python
-
-        apart from Communication and Common Sense
+   * Business + Statistics (Basic + Advanced) + Technical (last preference i.e. R/Python)
+   * Statistics (Basic + Advanced)  + ML (Prediction Algorithms) + R & Python
+   * apart from Communication and Common Sense
 
    Outline & Content Basic Statistics
    1. Preliminary Data types
@@ -46,8 +44,7 @@ Probability formula = interested events / total number of events
   probability of date 30 in a year : 11/365
   probability of getting 3 in dice: P(>3) = 4, 5, 6 = 3/6 = 0.5 = 50%
 
-Probability Distribution:
-=================
+### Probability Distribution:
    always between 0 to 1
    sums up to 100
 
@@ -64,8 +61,7 @@ X	P(X)
 2. What is the probability of selling only one product?
 3. What is the probability of selling atleast two products?
 
-Sampling theory
-===========
+### Sampling theory
 Population vs Random sample data
 Population data is always large which is economically costlier to handle.
  eg. survey of all the citizons will require lots of manpower.
@@ -77,8 +73,8 @@ If working on population data, the accuracy should be very much high.
 Measures of Central Tendency: First moment of Business Decisions
 Find the center of the numbers: Mean / Median / Mode / Outliers
 
-Mean/Average
-==========
+### Mean/Average
+
  -> 1, 2, 3, 4, 5 : average=3
  -> 1, 2, 3, 4, 700 : average=142
 
@@ -98,8 +94,7 @@ Avg 20%
 
 Mean or Average is affected by Outliers.
 
-Median (data will be sorted before applying)
-=====
+### Median (data will be sorted before applying)
 
 	1		1
 	2     Mean = 3	2
@@ -121,8 +116,7 @@ Median = 3
 1, 2, 3, 4, 5, 6
 Median = (3+4)/2 = 3.5
 
-Mode -> most occurence/common/popular value in the dataset
-====
+### Mode -> most occurence/common/popular value in the dataset
 {Grapes, Apple, Orange, Orange}			: Orange
 {Grapes, Apple, Apple, Orange, Orange}			: Apple, Orange
 {Watermelon, Grapes, Apple, Apple, Orange, Orange, Grapes}	: Grapes, Apple, Orange
@@ -143,15 +137,13 @@ N = number of items in the population
 Sample parameter = X bar
 n = number of items in the sample
 
-Measures of Dispersion : 2nd moment of business decision
-=================
+### Measures of Dispersion : 2nd moment of business decision
 The measures that help us to know about the spread of a data set are called measures of dispersion.
 
 The measures 
 
 
-Day5: Mar 26 -> Using Rstudio
-==========
+# Day5: Mar 26 -> Using Rstudio
 Clear Console -> Ctrl + L
 packages - same as libraries in other programming languages
 Installing packages - Tools -> Install Packages
@@ -179,7 +171,7 @@ help on packages/function name etc.:
 Reading csv file:
    On the Environment tab, click import dataset button.
 from editor window:
-   x <- read.csv("cars.csv'")
+   ```x <- read.csv("cars.csv'")```
 
 Show the dataset details -> Import Text (base)...
    View(x)
