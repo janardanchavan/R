@@ -1,20 +1,24 @@
 # R Learning notes:
 
 ## Day1 - Mar 19, 2020
-   Data Science (Business Analytics)
-   * Business + Statistics (Basic + Advanced) + Technical (last preference i.e. R/Python)
-   * Statistics (Basic + Advanced)  + ML (Prediction Algorithms) + R & Python
-   * apart from Communication and Common Sense
+Data Science (Business Analytics)
+* Business + Statistics (Basic + Advanced) + Technical (last preference i.e. R/Python)
+* Statistics (Basic + Advanced)  + ML (Prediction Algorithms) + R & Python
+* apart from Communication and Common Sense
 
-   Outline & Content Basic Statistics
-   1. Preliminary Data types
-     1. Data Types - Continuous, Discrete, Nominal, Interval, Ratio
-         Continuous - Decimal format with some meaning, eg. height as 6.1 ft., weight 75.3 kg, petrol price 72.15 p/l, temp in bangalore 25.2 degree, 
-         Descrete - Decimal format that does not have any meaning (decimal numbers not considered) i.e. does not have decimal places, eg. 1.2 laptops, 2.83 bikes does not makes any sense.
-             In other words, whole numbers with meaning - 1, 2  or 3 laptops, 2, 3 bikes, 2 or 20 children, 100, 200 employees in office
-                           descrete data example:
-                           non-numerical data:
-                                 Collor: (Red, Blue, yellow); gender (M, F, M, F)
+Outline & Content Basic Statistics
+
+1. Preliminary Data types
+
+A. Data Types - Continuous, Discrete, 
+B. Data Types - Nominal, Ordinal, Interval, Ratio
+
+Continuous - Decimal format with some meaning, eg. height as 6.1 ft., weight 75.3 kg, petrol price 72.15 p/l, temp in bangalore 25.2 degree, 
+Descrete - Decimal format that does not have any meaning (decimal numbers not considered) i.e. does not have decimal places, eg. 1.2 laptops, 2.83 bikes does not makes any sense.
+     In other words, whole numbers with meaning - 1, 2  or 3 laptops, 2, 3 bikes, 2 or 20 children, 100, 200 employees in office
+		   descrete data example:
+		   non-numerical data:
+			 Collor: (Red, Blue, yellow); gender (M, F, M, F)
 ## Day2 - Mar 20, 2020
           a: Nominal: labeling variables without any quantitative values: Raj, Delhi, London, New Jersey
           b: Ordinal/direction: measures of non-numeric concepts like satisfaction, happiness, discomfort, etc.: 
