@@ -82,7 +82,30 @@ Plotting boxplot
 <strong>How do you calculate outlier in the boxplot?<strong/>
  
 
+# Day - Apr 03, 2020
 
+pandas - for data Manipulation
+`import pandas as pd`
+
+numpy - for Numerical operations
+`import numpy as np`
+
+matplotlib.pyplot - for Graphs
+`import matplotlib.pyplot as plt`
+
+opening file and saving in a variable
+`x = pd.read_csv("C:\\New Volume\\Downloads\\mba.csv")
+
+showing records
+ ```
+ x
+ x.head()
+ x.head(20)
+ x.tail()
+ x.tail(20)
+ x.columns
+ x.
+ ```
    
 
   
