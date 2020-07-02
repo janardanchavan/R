@@ -22,7 +22,7 @@ Variance - The measure of variation among the datapoints is called as variance.
 Example: X1=1, X2=2, X3=3,     Mean=3
 | Population Value formula | Sample Value formula |
 | --- | --- |
-| <img src="https://latex.codecogs.com/svg.latex?\mu=\frac{\displaystyle\sum_{i=1}^{N}x_i}{N}"/> <br/> N = number of items in the population | <img src="https://latex.codecogs.com/svg.latex?\mu=\frac{\displaystyle\sum_{i=1}^{n-1}(x_i-\overline{x})^2}{n}"/>  <br/> n = number of items in the population |
+| <img src="https://latex.codecogs.com/svg.latex?\sigma^2=\frac{\displaystyle\sum_{i=1}^{N}(x_i-\mu)^2}{N}"/> <br/> N = number of items in the population | <img src="https://latex.codecogs.com/svg.latex?s^2=\frac{\displaystyle\sum_{i=1}^{n-1}(x_i-\overline{x})^2}{n-1}"/>  <br/> n = number of items in the population |
 |=((x-2)^2+(2-2)^+(3-2)^2) / 3| --- |
 |=((-1)^2+(0)^2+(1)^2) / 3| --- |
 |=(1+0+1) / 3| --- |
