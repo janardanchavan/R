@@ -10,3 +10,7 @@ $$e^x = \sum_{k=0}^{\infty} \frac{x^k}{k!}$$
 
 \frac{-b \pm \sqrt{b^2-4ac}}{2b}
 
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
+
