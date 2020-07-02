@@ -157,12 +157,12 @@ Installing Package - Click the install button on the Package tab itself.
    1. Enter name of the package to be installed eg. moments
    2. Select "Install dependencies" check box.
 
-Installing packages from editor window, eg.:
-   install.packages('moments')
+Installing packages from editor window, eg.:<br/>
+   ```install.packages('moments')```
 
 if we de-select the check-box, we'll not be able to use it in our program called detaching package.
 
-detaching package from editor window:
+detaching package from editor window:<br/>
    detach("packagae:moments", unload = True)
 
 help on packages/function name etc.:
@@ -170,49 +170,47 @@ help on packages/function name etc.:
 
 Reading csv file:
    On the Environment tab, click import dataset button.
-from editor window:
+from editor window:<br/>
    ```x <- read.csv("cars.csv'")```
 
-Show the dataset details -> Import Text (base)...
+Show the dataset details -> Import Text (base)...<br/>
    View(x)
 
-to check rows and columns in the dataset:
+to check rows and columns in the dataset:<br/>
    dim(x)
 
-to display initial records in the dataset (by default 6 records):
+to display initial records in the dataset (by default 6 records):<br/>
    head(x)
 
-to display first 3 records:
+to display first 3 records:<br/>
    head(x, 3)
 
-to display last records (default 6 records):
+to display last records (default 6 records):<br/>
   tail(x)
 
-to display last 3 records:
+to display last 3 records:<br/>
   tail(x, 6)
 
-to display all the column names in the dataset
+to display all the column names in the dataset<br/>
   colnames(x)
 
-to print average/mean of HP column (column names are case-sensitive):
+to print average/mean of HP column (column names are case-sensitive):<br/>
   mean(x$HP)
 
-to print median:
+to print median:<br/>
   median(x$HP)
 
-to avoid using dataset name each time:
-  attach(x)
-  mean(HP)
-
-to display most occuring value:
-  we need additional library 'LaplacesDemon' to display mode values:
+to avoid using dataset name each time:<br/>
+```attach(x)```
+```mean(HP)```
+to display most occuring value:<br/>
+  we need additional library 'LaplacesDemon' to display mode values:<br/>
   install.packages('LaplacesDemon')
   then select the package on the Packages tab.
+  ```Mode(HP)```
 
-  Mode(HP)
-
-to display summary of all the column together
-  summary(x)
+to display summary of all the column together<br/>
+  ```summary(x)```
 
 Create an account on rpubs.com -> whatever you type, you can publish on rpubs.com
 
