@@ -216,6 +216,22 @@ to display most occuring value:<br/>
 
 to display summary of all the column together<br/>
   ```summary(x)```
+  
+to display the number of occurence of each item <br/>
+  `table(gmat)`
+  
+to caclculate variance<br/>
+  `var(gmat)
+  
+to calculate standard deviation
+ `sd(gmat)`
+ `sqrt(var(gmat))`
+
+to calculate range
+ `max - min manual calculation
+
+to calculate 
+ `range = max(gmat) - min(gmat)`
 
 Create an account on rpubs.com -> whatever you type, you can publish on rpubs.com
 
