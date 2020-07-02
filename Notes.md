@@ -205,14 +205,13 @@ to print median:<br/>
   ``` median(x$HP)```
 
 to avoid using dataset name each time:<br/>
-```
-attach(x)
-mean(HP)
-```
+```attach(x)```
+```mean(HP)```
+
 to display most occuring value:<br/>
   we need additional library 'LaplacesDemon' to display mode values:<br/>
-  ```install.packages('LaplacesDemon')```
-  then select the package on the Packages tab.
+  ```install.packages('LaplacesDemon')```<br/>
+  then select the package on the Packages tab.<br/>
   ```Mode(HP)```
 
 to display summary of all the column together<br/>
