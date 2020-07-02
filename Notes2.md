@@ -79,11 +79,11 @@ Plotting barplot
 Plotting boxplot
   ```boxplot(gmat)```
 
-<strong>How do you calculate outlier in the boxplot?<strong/>
+<strong>How do you calculate outlier in the boxplot?</strong>
  
 
 # Day - Apr 03, 2020
-
+### Python
 pandas - for data Manipulation
 `import pandas as pd`
 
@@ -104,8 +104,39 @@ showing records
  x.tail()
  x.tail(20)
  x.columns
- x.
+ x.describe()
+  
+ x.gmat.mean()
+ x['gmat'].mean()
+ 
+ x.gamt.median()
+ x.gmat.mode()
  ```
+ mode will show records with index.<br/>
+ 
+ 2nd moment of business decision
+ ```
+ x.gmat.var()
+ x.gmat.std()
+ range = x.gmat.max() - x.gmat.min()
+ range
+ x.gmat.skew()
+ x.gmat.kurt()
+ ```
+ Plotting graphs:
+ ```plt.hist(x.gmat)
+ ```plt.show()``` add this line to ignore junk values
+ ```
+ plt.boxplot
+ plt.show()
+ ```
+ <strong>How to plot the bar graph?</strong>
+ 
+ 
+ 
+ 
+ 
+ 
    
 
   
