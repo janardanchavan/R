@@ -61,7 +61,31 @@ Eg. Heights of Black Cherry Trees
 Skewness is asymmetry in a statistical distribution, in which the curve appears distrted or skewed eitehr to the left or to the right.
 Formula to calculate Manually : <img src="https://latex.codecogs.com/svg.latex?\sum{[(x-\mu/\sigma)]}^3"/>
  
+Plotting histogram:
+  ```window()```
+  ```hist(gmat)```
+showing skewness : install moments package
+  ```install.library('moments')```
+  ```skewness(gmat)```
+  ```skewness(workex)```
+  
+Calculating kurtosis:
+  ```kurtosis(gmat)```
+  ```kurtosis(workex)```
 
+Plotting barplot
+  ```barplot(workex)```
+  
+Plotting boxplot
+  ```boxplot(gmat)```
+
+<strong>How do you calculate outlier in the boxplot?<strong/>
+ 
+
+
+   
+
+  
 
 
 
