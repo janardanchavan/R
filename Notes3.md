@@ -32,4 +32,49 @@ Why Standard distribution?
 * to make the data unitless
 * to resolve scalling issue
 
+The process of converting normal distributed data to standard distributed data is called as `Standardization` or `Normalization`.
 
+#### Calculating Probability from Z distribution
+Lifespan of a person can be reasonably modelled using a normal distribution
+Ex. What is the probability of a person leaving greater than 75 years provided average year is 72 years.
+- µ = 72 years and σ = 6 years
+
+What is P(x >= 75)
+
+Step 1: Calculate Z score corresponding to 75
+- Z = (75 - 72) / 6 = 0.5
+
+```
+We know that the probability P(X > 75) is equal  to 1-P(X<=75), so we can use a table to find (P(X<=75). This result is equal to P(Z<=0.5) (where Z is the standardized random variable). The table state that P(Z<=0.5)=0.6915
+```
+
+Step 2: Calculate the probabilities using Z-Table (use z-table.com site)
+- P(Z <= 0.5) = 0.6915
+
+Now we can calculte P(X > 75).
+= P(X>75)
+= 1-P(X<=0.75)
+= 1-P(X<=0.5)
+= 1-0.6915
+= 0.3085
+
+
+
+
+
+
+<hr/>
+```js
+  import { Component } from '@angular/core';
+  import { MovieService } from './services/movie.service';
+
+  @Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    providers: [ MovieService ]
+  })
+  export class AppComponent {
+    title = 'app works!';
+  }
+```
