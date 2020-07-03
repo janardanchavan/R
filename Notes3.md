@@ -19,11 +19,14 @@ Standard Normal Distribution:
 
 Example data:
 
-| Emp No | Salary | Work Exp. |
-| --- | --- |
-| 123 | 450000 | 2 |
-| 314 | 650000 | 3.5 |
-| 423 | 850000 | 5.3 |
+
+| | Emp No | Salary | Work Exp. |
+| --- | --- | --- | --- |
+| | 123 | 450000 | 2 |
+| | 314 | 650000 | 3.5 |
+| | 423 | 850000 | 5.3 |
+| Mean | | | |
+| Standard Deviation | | | |
 
 Why Standard distribution?
 * to make the data unitless
