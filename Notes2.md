@@ -124,14 +124,18 @@ showing records
  x.gmat.kurt()
  ```
  Plotting graphs:
- ```plt.hist(x.gmat)
- ```plt.show()``` add this line to ignore junk values
  ```
+ plt.hist(x.gmat)
+ plt.show()             # add this line to ignore junk values
+
  plt.boxplot
  plt.show()
  ```
  <strong>How to plot the bar graph?</strong>
- 
+ Box
+ * IQR
+ * Lower Outliers = Q1 - (1.5)(IQR)
+ * Upper Outliers = Q3 + (1.5)(IQR)
  
  
  
