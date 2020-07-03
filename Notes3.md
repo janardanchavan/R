@@ -11,6 +11,22 @@ Normal distribution is  also called as symmetrical distribution.
 Probability formula: P() = I.E. / Total Events
 
 The probability associated with any single random variable is always 0, because we are interested in only one random event.
-Ex. What is the probability of the climate of being 25.6 degree => 0%
+Ex. What is the probability of the climate of being 25.6 degree => 0%.
+
+Standard Normal Distribution:
+* A Normal Distribution with a mean of 0 and a standard deviation of 1 is called as Standard Normal Distribution.
+* Any x value can be transformed into  a z-score by using the formula `Z = (Value - Mean) / (Standard Deviation) = (x-µ) / σ
+
+Example data:
+
+| Emp No | Salary | Work Exp. |
+| --- | --- |
+| 123 | 450000 | 2 |
+| 314 | 650000 | 3.5 |
+| 423 | 850000 | 5.3 |
+
+Why Standard distribution?
+* to make the data unitless
+* to resolve scalling issue
 
 
