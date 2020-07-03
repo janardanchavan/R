@@ -44,19 +44,30 @@ What is P(x >= 75)
 Step 1: Calculate Z score corresponding to 75
 - Z = (75 - 72) / 6 = 0.5
 
+Step 2: Calculate the probabilities using Z-Table (use z-table.com site)
+- P(Z <= 0.5) = 0.6915
+
 ```
 We know that the probability P(X > 75) is equal  to 1-P(X<=75), so we can use a table to find (P(X<=75). This result is equal to P(Z<=0.5) (where Z is the standardized random variable). The table state that P(Z<=0.5)=0.6915
 ```
 
-Step 2: Calculate the probabilities using Z-Table (use z-table.com site)
-- P(Z <= 0.5) = 0.6915
-
-Now we can calculte P(X > 75).
+Now we can calculate P(X > 75):
+```
 = P(X>75)
 = 1-P(X<=0.75)
 = 1-P(X<=0.5)
 = 1-0.6915
 = 0.3085
+```
+
+Assignments - Probability Distribution
+
+Q1. The final exam scores in a statistics class were normally distributed  with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored more than 62 in the class.
+
+Q2. The final exam scores in a statistics class were  normally distributed with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored less than 62 in the exam.
+
+Q3. A normally distibuted random variable X has a mean of 20 and a standard deviation of 4. Determine the probability that a randomly selected x-value is between 15 and 22.
+
 
 
 
