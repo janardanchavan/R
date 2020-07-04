@@ -2,17 +2,17 @@
 
 ### Normal Probability Plot / Normal Distribution plot / Q-Q Plot / Symmetrical Curve
 
-To identify if the data is distributed normally or not. 
+To identify if the data is distributed normally or not.  <br/>
 If data points are around in a single diognal line, it means data is following normal distribution.
 
-Plot vs Curve for normal distribution:
-If someone asks to plot a normal distribution curve, draw it like a bell shaped graph.
+Plot vs Curve for normal distribution: <br/>
+If someone asks to plot a normal distribution curve, draw it like a bell shaped graph. <br/>
 If someone asks to plot a normal distribution plot, draw it like a scatter graph with line.
 
 ### Sampling variation
 
-* Statistics vary from Sample to Sample due to randomness.
-* A population of 1000,000 people has an average IQ of 100.
+* Statistics vary from Sample to Sample due to randomness. <br/>
+* A population of 1000,000 people has an average IQ of 100. <br/>
 * Suppose if you take sample of 5 people will it be same as 100 or what you will get?
 
 ### Confidence Interval
@@ -20,15 +20,15 @@ If someone asks to plot a normal distribution plot, draw it like a scatter graph
 * What is the Probability of a student scoring 65.5% in an Examination?
 Probability is '0' (because probability associated with any single value is 0)
 
-What does below line mean?
+What does below line mean? <br/>
 I am 95% confident that I will score 75% to 85% in an exam.
 
-Note:
+Note: <br/>
 Z-Score for 95% confidence is 1.96<br/>
 Z-Score for 90% confidence is 1.64 (1.64 / 1.65)<br/>
 Z-Score for 99% confidence is 2.58 (2.57 / 2.575/ 2.58)<br/>
 
-Case Study with respect to Credit Card:
+Case Study with respect to Credit Card: <br/>
 * A Bank with 50,000 customers is thinking of offering a <br/>
 new credit card to its all customers.
 
@@ -45,9 +45,10 @@ standard deviation is $1,500 from previous launches.
 * What we can say about the average balance that will be <br/>
 held after a full-fledged market launch?
 
-Population = N = 50,000
-Sample = s = 200
-S.Mean = \Xbar = 1650
-S.SD = \s = 1987
-P.SD = \sigma = 1500
-what will be population mean? = \mu = ???
+Population = N = 50,000 <br/>
+Sample = n = 200 <br/>
+S.Mean = <img src="https://latex.codecogs.com/svg.latex?\overline{X}"/> = 1650 <br/>
+S.SD = s = 1987 <br/>
+P.SD = <img src="https://latex.codecogs.com/svg.latex?\sigma"/> = 1500 <br/>
+what will be population mean? = <img src="https://latex.codecogs.com/svg.latex?\mu"/> = ??? <br/>
+
