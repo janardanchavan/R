@@ -64,6 +64,23 @@ Assignments - Probability Distribution
 
 Q1. The final exam scores in a statistics class were normally distributed  with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored more than 62 in the class.
 
+```
+Average/mean of exam score: 58
+Standard Deviation: 4
+probability that a randomly selected student scored more than 62?:
+
+Z-Score 	= (random value - mean) / SD
+              	= (62 - 58) / 4				= (75-72) / 6
+	= 4 / 4					= 3 / 6
+	= 1					= 0.5
+
+Probability using Z-Table: P(Z >= 1) 			= P(x >= 0.5) = 1-(P(x >= 0.5))
+	= 1-(0.8413) 				= 1-(0.6915)
+	= 0.1587					= 0.3085
+
+15.87%
+```
+
 Q2. The final exam scores in a statistics class were  normally distributed with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored less than 62 in the exam.
 
 Q3. A normally distibuted random variable X has a mean of 20 and a standard deviation of 4. Determine the probability that a randomly selected x-value is between 15 and 22.
