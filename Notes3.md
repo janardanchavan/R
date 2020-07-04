@@ -62,7 +62,7 @@ Now we can calculate P(X > 75):
 
 Assignments - Probability Distribution
 
-Q1. The final exam scores in a statistics class were normally distributed  with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored more than 62 in the class.
+#### Q1. The final exam scores in a statistics class were normally distributed  with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored more than 62 in the class.
 
 ```
 Average/mean of exam score: 58
@@ -80,10 +80,46 @@ Probability using Z-Table: P(Z >= 1) 		= P(x >= 0.5) = 1-(P(x >= 0.5))
 	= 15.87%				= 30.85%
 ```
 
-Q2. The final exam scores in a statistics class were  normally distributed with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored less than 62 in the exam.
+Note: Z-Table.com always gives the for left side shaded portion only.
 
-Q3. A normally distibuted random variable X has a mean of 20 and a standard deviation of 4. Determine the probability that a randomly selected x-value is between 15 and 22.
+#### Q2. The final exam scores in a statistics class were  normally distributed with a mean of 58 and a standard deviation of 4. Find the probability that a randomly selected student scored less than 62 in the exam.
 
+```
+Average/mean of exam score: 58
+Standard Deviation: 4
+probability that a randomly selected student scored less than 62?:
+
+Z-Score	= (random value - mean) / SD
+        = (62 - 58) / 4
+	= 4 / 4
+	= 1
+
+Probability using Z-Table: P(Z < 0) = 0.8413
+
+84.13%
+```
+
+#### Q3. A normally distibuted random variable X has a mean of 20 and a standard deviation of 4. Determine the probability that a randomly selected x-value is between 15 and 22.
+
+```
+Z-Score = (random value - mean) / SD
+        = (15 - 20) / 4
+	= 5 / 4
+	= -1.25
+
+Z-Score = (random value - mean) / SD
+        = (22 - 20) / 4
+	= 2 / 4
+	= 0.5
+
+Probability using Z-Table: P(1.25 <= x <= 0.5)
+    a 	= (x >= -1.25)
+	= 0.1056
+    b 	= (x <= 0.5)
+	= 0.6915
+b - a	= 0.6915-0.1056
+	= 0.5859
+```
 
 
 
