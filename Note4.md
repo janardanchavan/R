@@ -85,7 +85,8 @@ We replace σ with our best guess (point dstimate) s, which is the standard devi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://latex.codecogs.com/svg.latex?t=\frac{\overline{x}-\mu}{s/\sqrt{n}}"/><br/>
 
-
+* If the underlying population is normally distributed, T is a random variable distributed<br/>
+according to a t-distribution with n-1 degrees of freedom <img src="https://latex.codecogs.com/svg.latex?T_{n-1}"/>
 
 
 
