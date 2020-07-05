@@ -120,25 +120,3 @@ Probability using Z-Table: P(1.25 <= x <= 0.5)
 b - a	= 0.6915-0.1056
 	= 0.5859
 ```
-
-
-
-
-
-
-<hr/>
-
-```js
-  import { Component } from '@angular/core';
-  import { MovieService } from './services/movie.service';
-
-  @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    providers: [ MovieService ]
-  })
-  export class AppComponent {
-    title = 'app works!';
-  }
-```
