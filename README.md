@@ -85,12 +85,3 @@ n = number of items in the sample
 
 <hr/>
 
-\documentclass{article}
-\usepackage{amsmath}
-
-\begin{document}
-
-text text text text text text text text  text text text text  text text text text  text text text text 
-$\sigma^2 = (1/n)\sum_{i=1}^{n}(x_i - \mu)^2$ text text text text text text text text  text text text text  text text text text  text text text text 
-
-\end{document}
