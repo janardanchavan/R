@@ -27,7 +27,11 @@ Example: X1=1, X2=2, X3=3,     Mean=3
 |=((-1)^2+(0)^2+(1)^2) / 3| --- |
 |=(1+0+1) / 3| --- |
 |=2/3| --- |
+
+<br/>
+
 | Population Standard Deviation formula | Sample Standard Deviation formula |
+| --- | --- |
 | <img src="https://latex.codecogs.com/svg.latex?\sigma=\sqrt{\frac{\displaystyle\sum_{i=1}^{N}(x_i-\mu)^2}{N}}"/>  | <img src="https://latex.codecogs.com/svg.latex?s=\sqrt{\frac{\displaystyle\sum_{i=1}^{n-1}(x_i-\overline{x})^2}{n-1}}"/>   |
 
 
