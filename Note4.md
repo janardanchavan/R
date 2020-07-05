@@ -68,7 +68,15 @@ Xbar +- Z(x-alpha) sigma/sqrt(n) where Z(x-alpha) satisfies p(-Z(x-alpha) < Z <=
 
 * Based on the survey and Historical data
 
-- n = 200; σ=$1500; 
+- n = 200; σ=$1500; Xbar=$1,650
+- σ \base{x} = σ / sqrt(n) = 1,500 / sqrt(200)
+
+* Construct a 95% confidence internval for the mean card balance and interpret it?
+
+($1,442 to $1,858)
+
+
+
 
 
 
