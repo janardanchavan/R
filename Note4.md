@@ -81,7 +81,10 @@ Xbar +- Z(x-alpha) sigma/sqrt(n) where Z(x-alpha) satisfies p(-Z(x-alpha) < Z <=
 
 We replace σ with our best guess (point dstimate) s, which is the standard deviation of the sample:
 
-<img src="https://latex.codecogs.com/svg.latex?s = \sqrt{\frac{\sum{(x - \overline{X})^2}}{n - 1}}"/> = 1650 <br/>
+<img src="https://latex.codecogs.com/svg.latex?s=\sqrt{\frac{\sum{(x-\overline{X})^2}}{n-1}}"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://latex.codecogs.com/svg.latex?t=\frac{\overline{x}-\mu}{s/\sqrt{n}}"/><br/>
+
 
 
 
