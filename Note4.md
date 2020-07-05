@@ -52,11 +52,11 @@ S.SD = s = 1987 <br/>
 P.SD = <img src="https://latex.codecogs.com/svg.latex?\sigma"/> = 1500 <br/>
 what will be population mean? = <img src="https://latex.codecogs.com/svg.latex?\mu"/> = ??? <br/>
 
-Interval estimates of parameters
+### Interval estimates of parameters
   
 What do you think will happen if we take another random sample of 200 customers?
 
-Becauseof this uncertainty, we prefer to provide the estimate as an interval (range) and associate<br/> a level of confidence with it.<br/><br/>
+Because of this uncertainty, we prefer to provide the estimate as an interval (range) and associate<br/> a level of confidence with it.<br/><br/>
 <strong>Interval = Point Estimate +- Margin of Error</strong>
 
 Start by choosing a confidence level (1-\alpha)% (e.g. 95%, 99%, 90%)<br/>
@@ -74,6 +74,14 @@ Xbar +- Z(x-alpha) sigma/sqrt(n) where Z(x-alpha) satisfies p(-Z(x-alpha) < Z <=
 * Construct a 95% confidence internval for the mean card balance and interpret it?
 
 ($1,442 to $1,858)
+
+### What if we don't know Population Standard Deviation?
+
+* Suppose that the customers of this bank are very different and hence population standard deviation from previous launches can not be used
+
+We replace σ with our best guess (point dstimate) s, which is the standard deviation of the sample:
+
+<img src="https://latex.codecogs.com/svg.latex?s = \sqrt{\frac{\sum{(x - \overline{X})^2}}{n - 1}}"/> = 1650 <br/>
 
 
 
