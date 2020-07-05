@@ -1,3 +1,5 @@
+
+
 ## Apr 27, 2020
 
 ## Normal Probability Plot / Normal Distribution plot / Q-Q Plot / Symmetrical Curve
@@ -79,7 +81,8 @@ Xbar +- Z(x-alpha) sigma/sqrt(n) where Z(x-alpha) satisfies p(-Z(x-alpha) < Z <=
 
 * Suppose that the customers of this bank are very different and hence population standard deviation from previous launches can not be used
 
-We replace σ with our best guess (point dstimate) s, which is the standard deviation of the sample:
+We replace σ() with our best guess (point dstimate) s(S.SD), which is the standard deviation of the sample:<br/>
+(Note that we cannot use Z-distribution, rather we go with T-distribution with n-1 degree of freedom)
 
 <img src="https://latex.codecogs.com/svg.latex?s=\sqrt{\frac{\sum{(x-\overline{X})^2}}{n-1}}"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -87,6 +90,23 @@ We replace σ with our best guess (point dstimate) s, which is the standard devi
 
 * If the underlying population is normally distributed, T is a random variable distributed<br/>
 according to a t-distribution with n-1 degrees of freedom <img src="https://latex.codecogs.com/svg.latex?T_{n-1}"/>
+
+<strong> this is complicated loophole topic in data science or statistical anlaysis.<br/>complicated statistical analysis</strong>
+
+* Research has shown that the t-distribution is fairly robust to deviation of the population of the normal model.
+
+### Student's t-distribution
+T-distibution is also called as Student's t-distribution
+
+### Confidence Interval for mean with unknown Sigma
+
+<img src="https://latex.codecogs.com/svg.latex?\overline{X}{\pm}Z_{1-\alpha}\frac{\sigma}{\sqrt{n}},\:where\:z_{1-\alpha}\:satisfies\:P(-z_{1-\alpha}\:\leq\:Z\:\leq\:z_{1-\alpha})\:=\:1-\alpha"/>
+
+changes to  below formula
+
+<img src="https://latex.codecogs.com/svg.latex?\overline{X}{\pm}t_{1-\alpha,n-1}\frac{s}{\sqrt{n}},\:where\:t_{1-\alpha,n-1}\:satisfies\:P(-t_{1-\alpha,n-1}\:\leq\:T_{n-1}\:\leq\:t_{1-\alpha,n-1})\:=\:1-\alpha"/>
+
+
 
 
 
