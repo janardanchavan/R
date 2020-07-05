@@ -52,3 +52,25 @@ S.SD = s = 1987 <br/>
 P.SD = <img src="https://latex.codecogs.com/svg.latex?\sigma"/> = 1500 <br/>
 what will be population mean? = <img src="https://latex.codecogs.com/svg.latex?\mu"/> = ??? <br/>
 
+Interval estimates of parameters
+  
+What do you think will happen if we take another random sample of 200 customers?
+
+Becauseof this uncertainty, we prefer to provide the estimate as an interval (range) and associate<br/> a level of confidence with it.<br/><br/>
+<strong>Interval = Point Estimate +- Margin of Error</strong>
+
+Start by choosing a confidence level (1-\alpha)% (e.g. 95%, 99%, 90%)<br/>
+(95% = (100 - 5%). 5% is nothing but alpha. alpha is the % of changes going wrong.<br/>
+
+Then, the population mean will be with in
+
+Xbar +- Z(x-alpha) sigma/sqrt(n) where Z(x-alpha) satisfies p(-Z(x-alpha) < Z <= Z(x-alpha)) = 1-alpha
+
+* Based on the survey and Historical data
+
+- n = 200; σ=$1500; 
+
+
+
+
+
