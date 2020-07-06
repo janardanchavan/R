@@ -1,5 +1,7 @@
 # Scatter Plot
 Scatter diagrams or plots  provide a graphical representation of the relationship of two continuous variables.
+<strong>Be Careful - </strong>Correlation is not cause and effect relationship.
+Judge strength of relationship by width and tightness of scatter.
 
 ### Positive Correlation
 If x increases y also increases, it is called as positive correlation.
