@@ -1,4 +1,4 @@
-# Scatter Plot
+# Scatter Plot, Correlation and LinearRegression
 1. Scatter diagrams or plots  provide a graphical representation of the relationship of two continuous variables.
 2. <strong>Be Careful - </strong>Correlation is not cause and effect relationship.(\sum{xy})
 3. Judge strength of relationship by width and tightness of scatter.
