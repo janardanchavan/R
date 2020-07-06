@@ -1,5 +1,3 @@
-
-
 # Scatter Plot
 1. Scatter diagrams or plots  provide a graphical representation of the relationship of two continuous variables.
 2. <strong>Be Careful - </strong>Correlation is not cause and effect relationship.(\sum{xy})
@@ -53,20 +51,33 @@ Points to remember:
 - x square and x whole square
 
 # Linear Regression Model - first prediction algorithm
-<b>Linear regression Model is the equation that represent how an independent variable is related to a dependent variable.<b/>
+<b>Linear regression Model is the equation that represent how an independent variable is related to a dependent variable.</b>
 
 equation of straight line = y=mx+c
 m=slope
 c=interception / constant
 x=independent variable
 
-Equation of regression: y = ß0 + ß1x + ε
-Beta not, Beta1 and epsilon
+Equation of regression: y = ß0 + ß1x + ε <br/>
+<img src="https://latex.codecogs.com/svg.latex?y=\beta_0\:+\:\beta_1{x}+\varepsilon"/>
+Beta not, Beta1 and epsilon/small e
 independent variable x is related to dependent variable y.
 
-Error term is a regression model.
-<b>ε(epsilon) is nothing but an error.</b>
+<b>Error term is a regression model.</b><br/>
+ε(epsilon) = an error.
+ß0(beta 1) = Intercept
+ß1(beta 1) = slope
+x = input / independent variable
+ß0 and ß1 together are called as <b>parameters of the model</b> or <b>coefficients of the model</b> or <b>estimates of the model</b>. 
 
+ε is a random variable called error = actual value - predicted value.
+
+What is regression equation?<br/>
+Regression equation and Linear regression equation both are same.
+
+<img src="https://latex.codecogs.com/svg.latex?\beta_0=\frac{(\sum{y})(\sum{x^2})-(\sum{x})(\sum{xy})}{n(\sum{x^2})-(\sum{x})^2}"/>
+
+<img src="https://latex.codecogs.com/svg.latex?\beta_1=\frac{n(\sum{xy})-(\sum{x})(\sum{y})}{n(\sum{x^2})-(\sum{x})^2}"/>
 
 
 
