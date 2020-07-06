@@ -41,6 +41,33 @@ If  the r value is less than -0.65, then it is called as Poor Negative Correlati
 * Example: r = 0.5, r = -0.5, r = 0.28 describe poor relationship
 
 <img src="https://latex.codecogs.com/svg.latex?r=\frac{n(\sum{xy})-(\sum{x})(\sum{y})}{\sqrt{[n\sum{x}^2-(\sum{x})^2][n\sum{y}^2-(\sum{y})^2]}}"/>
+|X|Y|
+|---|---|
+|1|2|
+|2|3|
+|3|4|
+
+Points to remember:
+- n = number of records
+- sum(x*y) - (sum(x)*sum(y)) i.e. 3(20) - (6)(9)
+- x square and x whole square
+
+# Linear Regression Model - first prediction algorithm
+<b>Linear regression Model is the equation that represent how an independent variable is related to a dependent variable.<b/>
+
+equation of straight line = y=mx+c
+m=slope
+c=interception / constant
+x=independent variable
+
+Equation of regression: y = ß0 + ß1x + ε
+Beta not, Beta1 and epsilon
+independent variable x is related to dependent variable y.
+
+Error term is a regression model.
+<b>ε(epsilon) is nothing but an error.</b>
+
+
 
 
 
