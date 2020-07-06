@@ -1,6 +1,8 @@
+
+
 # Scatter Plot
 1. Scatter diagrams or plots  provide a graphical representation of the relationship of two continuous variables.
-2. <strong>Be Careful - </strong>Correlation is not cause and effect relationship.
+2. <strong>Be Careful - </strong>Correlation is not cause and effect relationship.(\sum{xy})
 3. Judge strength of relationship by width and tightness of scatter.
 
 ### Positive Correlation
@@ -38,7 +40,7 @@ If  the r value is less than 0.65, then it is called as Poor Positive correlatio
 If  the r value is less than -0.65, then it is called as Poor Negative Correlation.
 * Example: r = 0.5, r = -0.5, r = 0.28 describe poor relationship
 
-r = 
+<img src="https://latex.codecogs.com/svg.latex?r=\frac{n(\sum{xy})-(\sum{x})(\sum{y})}{\sqrt{[n\sum{x}^2-(\sum{x})^2][n\sum{y}^2-(\sum{y})^2]}}"/>
 
 
 
