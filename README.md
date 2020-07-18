@@ -17,3 +17,4 @@
 | <img src="https://latex.codecogs.com/svg.latex?\sigma=\sqrt{\frac{\displaystyle\sum_{i=1}^{N}(x_i-\mu)^2}{N}}"/>  | <img src="https://latex.codecogs.com/svg.latex?s=\sqrt{\frac{\displaystyle\sum_{i=1}^{n-1}(x_i-\overline{x})^2}{n-1}}"/>   |
 
 
+
